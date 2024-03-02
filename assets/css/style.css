@@ -72,6 +72,30 @@ header {
 
 /*Fim Header*/
 
+/*Inicio Main*/
+
+main {
+    display: flex;
+}
+
+/*Fim Main*/
+
+/*Inicio Sibebar*/
+
+aside {
+    padding: 24px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+/*Fim Sibebar*/
 
 /*Inicio Container Videos*/
 
