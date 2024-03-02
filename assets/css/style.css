@@ -6,8 +6,71 @@
 }
 
 body {
+    height: 100vh;
     font-family: "Roboto", sans-serif;
 }
+
+/*Inicio Header*/
+
+header {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+.header__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.header__icon__yt {
+    width: 90px;
+    height: 20px;
+}
+
+.header__left {
+    height: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.header__search__input {
+    width: 405px;
+    display: flex;
+}
+
+.header__search__input input {
+    all: unset;
+    width: 348px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+}
+
+.header__search__input span {
+    width: 57px;
+    height: 40px;
+    background: #f8f8f8;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__right span img{
+    border-radius: 50%;
+}
+
+/*Fim Header*/
 
 
 /*Inicio Container Videos*/
