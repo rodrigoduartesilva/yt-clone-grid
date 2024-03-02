@@ -12,6 +12,12 @@ body {
 
 /*Inicio Container Videos*/
 
+.container {
+    display: grid;
+    grid: 140px 140px 140px / 282px 282px 282px 282px;
+    gap: 135px 0;
+}
+
 .container-video {
     padding: 1rem;
     width: 17.625rem;
@@ -27,7 +33,6 @@ body {
 .container-video-title {
     width: 15.5625rem;
     display: flex;
-    justify-content: space-between;
     gap: 0.625rem;
 }
 
