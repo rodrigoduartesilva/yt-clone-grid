@@ -120,42 +120,42 @@ nav ul li img {
     margin-top: 2.5rem;
 }
 
-.container-video {
+.container__video {
     margin-right: 32px;
     height: 16.375rem;
 }
 
-.container-video img {
+.container__video img {
     width: 15.625rem;
     height: 8.75rem;
     margin-bottom: 1rem;
 }
 
-.container-video-title {
+.container__video__title {
     width: 15.5625rem;
     display: flex;
     gap: 0.625rem;
 }
 
-.container-video-title span {
+.container__video__title span {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.container-video-title img {
+.container__video__title img {
     width: 2.625rem;
     height: 2.625rem;
     border-radius: 50%;
 }
 
-.container-video-title h1 {
+.container__video__title h1 {
     font-size: 0.875rem;
     display: inline;
     margin-bottom: 0.625rem;
 }
 
-.container-video-title span p {    
+.container__video__title span p {    
     font-size: 0.75rem;
     color: #515151;
 }
